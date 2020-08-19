@@ -9,14 +9,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Result<T>{
 
-    private StatusCode code;
+    private String code;
     private String message;
     private T data;
 
     public Result(StatusCode code, String message){
-        this.code = code;
+        this.code = code.getCode();
         this.message =message;
         this.data = null;
+    }
+
+    public Result(StatusCode code, String message, T data){
+        this.code = code.getCode();
+        this.message =message;
+        this.data = data;
     }
 
 }

@@ -1,0 +1,4 @@
+com\fxj\cloudconsumerorder80\config\ApplicationContextConfig.class
+com\fxj\cloudconsumerorder80\entity\Payment.class
+com\fxj\cloudconsumerorder80\CloudConsumerOrder80Application.class
+com\fxj\cloudconsumerorder80\controller\ConsumerOrderController.class
